@@ -1,0 +1,22 @@
+一切都是对象：
+创建对象：创建对象定义域，class包含（"字段||数据成员"+"方法||成员函数），mian:组成包括名称，参数，返回值和方法体;void，return只是用来退出方法，不是void需要返回一个正确类型的返回值;import指示编译器导入一个包，或者是类库;static方法：负责看护与其隶属同一类型的实例群；静态动态方法区别？;public关键词的含义：一个可由外部调用的方法?;注释文档三种区别，//*11*/，/*11*/，//；标签的11种类型;编码风格：驼峰风格。
+
+操作符：
+优先级问题：和日常类似;赋值，别名现象：t1.level=9;t2.level=47;t1=t2;t1.level=27,print("t1.level:"+t1.level+",t2.level:"+t2.level)
+t1.level:27,t2.level:27 解决方法：t1.levle=t2.level   使两个对象彼此独立;自动递增和递减：++a,--a,a++,a++的区别，++a先执行，a--先生成值;
+关系操作符：boolean;逻辑操作符：&&(与),||(或)，!(非);  equals(覆盖问题）比较对象问题，不是比较对象的引用;
+短路问题： test1(0)&&test2(2)&&text3(2),只要一个为false测试就会结束;
+直接常量：long,float,double, Long.toBinaryString()方法
+按位操作符，位移操作符搞不明白;类型转换操作符（布尔不能转换）;截尾与舍入；java没有siezof（所有数据类型在所有机器的大小相同）；
+notice:int过大做乘法运算时会溢出
+
+控制执行流程：
+true，false;if-else;while,do-while,for;
+for的格式：（初始值表达式，布尔表达式，步进）;
+Foreach语法：不用创建int变量去对由访问项构成的序列进行计数，foreach自动产生;
+reture;break;continue;
+break用于强行退出循环，不执行循环中剩余的语句;continue停止执行当前的迭代，退回循环起始位置，继续下一次迭代;
+goto在java中的替代label1;
+continue label1是同时终端内部迭代和外部迭代，直接转到lable处，随后继续迭代，却从外部开始迭代;
+break label1会中断所有迭代，并会到label1处，但不重新进入迭代;
+switch,break
