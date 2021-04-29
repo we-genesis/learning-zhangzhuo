@@ -18,6 +18,8 @@ https://gitee.com/oschina/git-osc/wikis/%E5%B8%AE%E5%8A%A9
 
 https://www.oschina.net/question/82993_133520
 
+https://gitee.com/help/articles/4119#article-header0
+
 
 #### 骚卓弟弟2020-11-25：
 
